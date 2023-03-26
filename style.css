@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/parallax/fonts/raleway-regular.woff2) format('woff2');
+  src: url(/fonts/raleway-regular.woff2) format('woff2');
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(/parallax/fonts/raleway-black.woff2) format('woff2');
+  src: url(/fonts/raleway-black.woff2) format('woff2');
 }
 
 :root {
@@ -54,7 +54,7 @@ body {
   width: 100%;
   height: calc(var(--font-size-index) * 10);
 
-  background-image: url('/parallax/img/ground.png');
+  background-image: url('img/ground.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -134,7 +134,7 @@ body {
   min-height: 100vh;
   min-height: 100dvh;
 
-  background-image: url('/parallax/img/dungeon.jpg');
+  background-image: url('img/dungeon.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
